@@ -1,0 +1,62 @@
+h1{
+    color: rgb(146, 6, 193);
+}
+.d-flex{
+    display: flex;  
+   justify-content: space-evenly;
+}
+
+/* Addtask css */
+.addTask-main{
+    width: 400px;
+    border:1px solid rgba(0, 0, 0, 0.423);
+    background-color: rgba(137, 43, 226, 0.073);
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+}
+.addTask-main>h2{
+    text-align: center;
+}
+form{
+    margin: 30px 50px;
+}
+label{
+    display: block;
+    margin: 10px 0px 5px 0px;
+}
+.addTask-main input{
+    height: 25px;
+}
+.addTask-main input,textarea:focus{
+    outline-color: blueviolet;
+}
+.addTask-main input,textarea{
+    width: 100%;
+    
+}
+.task-completed {
+    background-color: rgba(0, 128, 0, 0.204);
+    
+  }
+  
+/* task css */
+.task-main{
+    border:1px solid rgba(0, 0, 0, 0.455); 
+    width: 750px;
+    box-shadow: 1px 1px 3px grey;
+    overflow-y: scroll;
+    height: 500px;
+    border-radius: 10px;
+}
+.task-main>h2{
+    text-align: center;
+}
+.task-def{
+    display: flex;  
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+    border-bottom: 1px solid black;
+} 
