@@ -38,11 +38,8 @@ function App () {
   },]);
 
   const addTask = (newTask) => {
-    const trimmedTitle = newTask.title?.trim() || '';
-    const trimmedDescription = newTask.description?.trim() || '';
-    if (trimmedTitle !== '' && trimmedDescription !== '') {
       setTasks([newTask, ...tasks]);
-    }
+  
   };
   const deleteTask = (taskId) => {
     const confirmed = window.confirm('Are you sure you want to delete this task?');

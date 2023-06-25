@@ -41,11 +41,11 @@ const AddTask = ({ addTask }) => {
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="taskName">Task Name:</label>
-          <input type="text" id="taskName" value={taskName} onChange={handleTaskNameChange} />
+          <input type="text" id="taskName" value={taskName} onChange={handleTaskNameChange} required/>
         </div>
         <div>
           <label htmlFor="description">Description:</label>
-          <textarea type="text" id="description" value={description} onChange={handleDescriptionChange} rows={4}/>
+          <textarea type="text" id="description" value={description} onChange={handleDescriptionChange} rows={4} required/>
         </div>
         <div>
           <label htmlFor="dueDate">Due Date:</label>
